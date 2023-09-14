@@ -1,0 +1,63 @@
+:root {
+    --light-gray-color: #424242;
+    --dark-yellow-color: #fdbe35;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin: 0;
+  }
+  
+  * {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--light-gray-color);
+  }
+  .btnlight {
+    color: var(--theme-white, #fff) !important;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(96deg, #ff7a7a -39.64%, #f65900 135.31%);
+    
+  
+    /* Button Bold */
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+    padding: 21px 48px !important;
+  }
+  .btnorder {
+    background: var(
+      --yellow-button,
+      linear-gradient(93deg, #ffb800 -47.72%, #ff8a00 136.81%)
+    ) !important;
+    font-size: 18px ;
+    border-radius: 8px;
+    display: flex;
+    width: 407px !important;
+    padding: 18px 48px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 14px 32px 0px #ffb20e4a, 0px 5px 8px 0px #de97003d !important;
+  }
+  
+  .btnpopular {
+    width: 283.4px;
+    padding: 21px 48px;
+    border-radius: 8px;
+    background: var(--theme-warning, #f17228) !important;
+  
+    /* Shadow/2 */
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24),
+      0px 5px 10px 0px rgba(253, 114, 92, 0.22) !important;
+  }
