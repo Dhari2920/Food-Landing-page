@@ -1,6 +1,6 @@
 :root {
-    --light-gray-color: #424242;
-    --dark-yellow-color: #fdbe35;
+    --gray-color: #424242;
+    --yellow-color: #fdbe35;
   }
   
   body {
@@ -11,16 +11,15 @@
     line-height: 120%; 
     margin: 0;
   }
-  
   * {
     font-family: sans-serif;
     font-size: 20px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--light-gray-color);
+    color: var(--gray-color);
   }
-  .btnlight {
+  .btnyellow {
     color: var(--theme-white, #fff) !important;
     text-align: center;
     border-radius: 8px;
